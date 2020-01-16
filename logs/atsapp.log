@@ -1,0 +1,48 @@
+[INFO] :: 18-57-19 10:57:03 806 [restartedMain]  org.springframework.boot.StartupInfoLogger  55  logStarting  Starting AtsProjectApplication on RITURAJ-PC with PID 1884 (F:\ATS-ProjectWorkSpace\ATS_Project\target\classes started by Rituraj in F:\ATS-ProjectWorkSpace\ATS_Project)  
+[INFO] :: 18-57-19 10:57:03 821 [restartedMain]  org.springframework.boot.SpringApplication  651  logStartupProfileInfo  No active profile set, falling back to default profiles: default  
+[INFO] :: 18-57-19 10:57:11 188 [restartedMain]  org.hibernate.jpa.internal.util.LogHelper  31  logPersistenceUnitInformation  HHH000204: Processing PersistenceUnitInfo [name: default]  
+[INFO] :: 18-57-19 10:57:11 704 [restartedMain]  org.hibernate.Version  46  logVersion  HHH000412: Hibernate Core {5.4.8.Final}  
+[INFO] :: 18-57-19 10:57:12 502 [restartedMain]  org.hibernate.annotations.common.reflection.java.JavaReflectionManager  49  <clinit>  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}  
+[INFO] :: 18-57-19 10:57:12 845 [restartedMain]  com.zaxxer.hikari.HikariDataSource  110  getConnection  HikariPool-1 - Starting...  
+[INFO] :: 18-57-19 10:57:14 554 [restartedMain]  com.zaxxer.hikari.pool.PoolBase  527  getAndSetNetworkTimeout  HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)  
+[INFO] :: 18-57-19 10:57:14 581 [restartedMain]  com.zaxxer.hikari.HikariDataSource  123  getConnection  HikariPool-1 - Start completed.  
+[INFO] :: 18-57-19 10:57:14 671 [restartedMain]  org.hibernate.dialect.Dialect  172  <init>  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect  
+[INFO] :: 18-57-19 10:57:19 709 [restartedMain]  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  52  initiateService  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+[INFO] :: 18-57-19 10:57:23 747 [restartedMain]  org.springframework.boot.StartupInfoLogger  61  logStarted  Started AtsProjectApplication in 20.757 seconds (JVM running for 22.167)  
+[INFO] :: 18-57-19 10:57:44 728 [http-nio-9090-exec-1]  com.st.ats.controllers.HomePageController  36  getForm  from HomepageController index() method execution starts  
+[INFO] :: 18-57-19 10:57:44 732 [http-nio-9090-exec-1]  com.st.ats.controllers.HomePageController  38  getForm  from HomepageController index() method execution ends  
+[INFO] :: 18-58-19 10:58:06 704 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  96  handleSingInBtn  form UserRegController handleSingInBtn() method execution starts  
+[INFO] :: 18-58-19 10:58:06 711 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  100  handleSingInBtn  form UserRegController handleSingInBtn() if block starts  
+[INFO] :: 18-58-19 10:58:06 711 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  89  isUserExist  isuserExist method from AtsUserServiceImpl execution starts  
+[INFO] :: 18-58-19 10:58:07 181 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  93  isUserExist  isuserExist method if block  execution  starts  
+[INFO] :: 18-58-19 10:58:07 182 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  96  isUserExist  isuserExist method if block  execution  ends  
+[INFO] :: 18-58-19 10:58:07 183 [http-nio-9090-exec-6]  com.st.ats.service.impl.AtsUserServiceImpl  98  isUserExist  isuserExist method from AtsUserServiceImpl execution ends  
+[INFO] :: 18-58-19 10:58:07 183 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  107  handleSingInBtn  form UserRegController handleSingInBtn() if block starts for check id  
+[INFO] :: 18-58-19 10:58:07 184 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  118  handleSingInBtn  form UserRegController handleSingInBtn() else block starts   
+[INFO] :: 18-58-19 10:58:07 184 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  120  handleSingInBtn  form UserRegController handleSingInBtn() if block starts   
+[INFO] :: 18-58-19 10:58:07 185 [http-nio-9090-exec-6]  com.st.ats.controllers.UserRegController  122  handleSingInBtn  form UserRegController handleSingInBtn() method execution ends  
+[INFO] :: 18-58-19 10:58:57 796 [Thread-8]  com.zaxxer.hikari.HikariDataSource  350  close  HikariPool-1 - Shutdown initiated...  
+[INFO] :: 18-58-19 10:58:57 815 [Thread-8]  com.zaxxer.hikari.HikariDataSource  352  close  HikariPool-1 - Shutdown completed.  
+[INFO] :: 18-58-19 10:58:58 721 [restartedMain]  org.springframework.boot.StartupInfoLogger  55  logStarting  Starting AtsProjectApplication on RITURAJ-PC with PID 1884 (F:\ATS-ProjectWorkSpace\ATS_Project\target\classes started by Rituraj in F:\ATS-ProjectWorkSpace\ATS_Project)  
+[INFO] :: 18-58-19 10:58:58 722 [restartedMain]  org.springframework.boot.SpringApplication  651  logStartupProfileInfo  No active profile set, falling back to default profiles: default  
+[INFO] :: 18-59-19 10:59:00 902 [restartedMain]  org.hibernate.jpa.internal.util.LogHelper  31  logPersistenceUnitInformation  HHH000204: Processing PersistenceUnitInfo [name: default]  
+[INFO] :: 18-59-19 10:59:00 907 [restartedMain]  com.zaxxer.hikari.HikariDataSource  110  getConnection  HikariPool-2 - Starting...  
+[INFO] :: 18-59-19 10:59:02 535 [restartedMain]  com.zaxxer.hikari.pool.PoolBase  527  getAndSetNetworkTimeout  HikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)  
+[INFO] :: 18-59-19 10:59:02 537 [restartedMain]  com.zaxxer.hikari.HikariDataSource  123  getConnection  HikariPool-2 - Start completed.  
+[INFO] :: 18-59-19 10:59:02 538 [restartedMain]  org.hibernate.dialect.Dialect  172  <init>  HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect  
+[INFO] :: 18-59-19 10:59:03 950 [restartedMain]  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  52  initiateService  HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]  
+[INFO] :: 18-59-19 10:59:04 865 [restartedMain]  org.springframework.boot.StartupInfoLogger  61  logStarted  Started AtsProjectApplication in 6.207 seconds (JVM running for 123.285)  
+[INFO] :: 18-00-19 11:00:12 925 [http-nio-9090-exec-7]  com.st.ats.controllers.UserRegController  96  handleSingInBtn  form UserRegController handleSingInBtn() method execution starts  
+[INFO] :: 18-00-19 11:00:12 926 [http-nio-9090-exec-7]  com.st.ats.controllers.UserRegController  100  handleSingInBtn  form UserRegController handleSingInBtn() if block starts  
+[INFO] :: 18-01-19 11:01:50 710 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  36  getForm  from HomepageController index() method execution starts  
+[INFO] :: 18-01-19 11:01:50 711 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  38  getForm  from HomepageController index() method execution ends  
+[WARN] :: 18-57-19 12:57:42 954 [HikariPool-2 housekeeper]  com.zaxxer.hikari.pool.HikariPool$HouseKeeper  787  run  HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h55m10s297ms346µs100ns).  
+[INFO] :: 18-12-19 01:12:23 900 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  36  getForm  from HomepageController index() method execution starts  
+[INFO] :: 18-12-19 01:12:23 900 [http-nio-9090-exec-10]  com.st.ats.controllers.HomePageController  38  getForm  from HomepageController index() method execution ends  
+[INFO] :: 18-12-19 01:12:37 543 [http-nio-9090-exec-5]  com.st.ats.controllers.UserRegController  96  handleSingInBtn  form UserRegController handleSingInBtn() method execution starts  
+[INFO] :: 18-12-19 01:12:37 543 [http-nio-9090-exec-5]  com.st.ats.controllers.UserRegController  100  handleSingInBtn  form UserRegController handleSingInBtn() if block starts  
+[INFO] :: 18-14-19 01:14:11 380 [http-nio-9090-exec-7]  com.st.ats.controllers.HomePageController  36  getForm  from HomepageController index() method execution starts  
+[INFO] :: 18-14-19 01:14:11 380 [http-nio-9090-exec-7]  com.st.ats.controllers.HomePageController  38  getForm  from HomepageController index() method execution ends  
+[WARN] :: 18-19-19 02:19:56 001 [HikariPool-2 housekeeper]  com.zaxxer.hikari.pool.HikariPool$HouseKeeper  787  run  HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=59m12s605ms956µs600ns).  
+[INFO] :: 18-28-19 02:28:14 769 [RMI TCP Connection(7)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  350  close  HikariPool-2 - Shutdown initiated...  
+[INFO] :: 18-28-19 02:28:14 936 [RMI TCP Connection(7)-127.0.0.1]  com.zaxxer.hikari.HikariDataSource  352  close  HikariPool-2 - Shutdown completed.  
